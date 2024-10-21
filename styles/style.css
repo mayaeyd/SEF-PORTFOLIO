@@ -20,6 +20,14 @@ header{
     align-items: center;
 }
 
+.primary-btn{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+}
+
 .section-title{
     font-weight: 470;
     text-decoration:underline;
@@ -31,16 +39,16 @@ header{
     margin-top: 5px;
 }
 
-a{
-    text-decoration: none;
-    background-color: black;
-    color: white;
-    padding: 10px;
-    border: 2px solid white;
-}
-
 a:hover {
     background-color: rgb(101, 98, 98);
     color: white;
     font-size: 110%;
+}
+
+footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
 }
