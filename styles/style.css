@@ -7,3 +7,22 @@ body{
 h1{
     font-weight: 600;
 }
+
+.section-title{
+    font-weight: 470;
+    text-decoration:underline;
+}
+
+a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+a:hover {
+    background-color: rgb(101, 98, 98);
+    color: white;
+    font-size: 110%;
+}
