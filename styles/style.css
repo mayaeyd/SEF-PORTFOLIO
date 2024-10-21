@@ -26,11 +26,32 @@ header{
     color: white;
     padding: 10px;
     border: 2px solid white;
+    cursor: pointer;
 }
 
 .section-title{
     font-weight: 470;
     text-decoration:underline;
+}
+
+.contact-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.project-container{
+    background-color: white;
+    border-radius: 10px;
+    border: solid 2px white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #subheader{
